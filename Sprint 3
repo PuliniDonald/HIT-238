@@ -20,7 +20,8 @@
         <li class="editMode"><input type="checkbox">
 <label>Milk</label>
 <input type="text" value="Milk"><button class="edit">Edit</button>
-<button class="delete">Delete</button></li>
+<button class="delete">Delete</button>
+</li>
         
       </ul>
       
