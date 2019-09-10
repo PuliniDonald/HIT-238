@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="style.css" type="text/css" media="screen" charset="utf-8">    
+  </head>
+  <body>
+    <div class="container">
+      <p>
+        <label for="new-task">Add Item</label>
+<input id="new-task" type="text"><button>Add</button>
+      </p>
+      
+      <h3>Shopping Items</h3>
+      <ul id="incomplete-tasks">
+        <li>
+<input type="checkbox"><label>Chicken</label>
+<input type="text"><button class="edit">Edit</button>
+<button class="delete">Delete</button>
+</li>
+        <li class="editMode"><input type="checkbox">
+<label>Milk</label>
+<input type="text" value="Milk"><button class="edit">Edit</button>
+<button class="delete">Delete</button></li>
+        
+      </ul>
+</body>
+</html>
