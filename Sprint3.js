@@ -38,7 +38,6 @@ var createNewTaskElement=function(taskString){
 	deleteButton.innerText="Delete";
 	deleteButton.className="delete";
   
-//clear task
-var clearItems. ();
+
 
 
