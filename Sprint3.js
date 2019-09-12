@@ -37,6 +37,15 @@ var createNewTaskElement=function(taskString){
 	editButton.className="edit";
 	deleteButton.innerText="Delete";
 	deleteButton.className="delete";
+	
+       var addTask= function (){
+	       console.log("add Task");
+	var listItem = createNewTaskElement(taskInput.value);
+	       
+	       incompleteTaskHolder.child(listItem);
+	       bindTaskEvents(listItem, taskCompleted);
+	       taskInput.value= "";
+       }
   
 
 
