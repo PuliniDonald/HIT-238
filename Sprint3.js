@@ -50,7 +50,7 @@ var createNewTaskElement=function(taskString){
 	  listItem.appendChild(checkBox);
 	listItem.appendChild(label);
 	   listItem.appendChild(editInput);
-	  listItem.appendChild(editButton);
+	       listItem.appendChild(editButton);
 	listItem.appendChild(deleteButton);
 	return listItem;
 }
@@ -58,24 +58,24 @@ var addTask=function(){
 	console.log("Add Task...");
 	
 	//Create a new list item with the text from new task
-	var listItem=createNewTaskElement(taskInput.value);
+	      var listItem=createNewTaskElement(taskInput.value);
 
 	//Append listItem to incompleteTaskHolder
-	incompleteTaskHolder.appendChild(listItem);
+	        incompleteTaskHolder.appendChild(listItem);
 	bindTaskEvents(listItem, taskCompleted);
 
-	taskInput.value="";
-
+	      taskInput.value="";
+ 
 }
 
 //Edit an existing task.
 var editTask=function(){
-console.log("Edit Task...");
+    console.log("Edit Task...");
 console.log("Change 'edit' to 'save'");
-var listItem=this.parentNode;
+   var listItem=this.parentNode;
 var editInput=listItem.querySelector('input[type=text]');
-var label=listItem.querySelector("label");
-var containsClass=listItem.classList.contains("editMode");
+      var label=listItem.querySelector("label");
+    var containsClass=listItem.classList.contains("editMode");
 		//If class of the parent is .editmode
 		if(containsClass){
 
@@ -110,8 +110,7 @@ var taskCompleted=function(){
 
 var taskIncomplete=function(){
 		console.log("Incomplete Task...");
-//Mark task as incomplete.
-//When the checkbox is unchecked
+//Mark task as incomplete.When the checkbox is unchecked
 	//Append the task list item to theincomplete tasks.
 		var listItem=this.parentNode;
 	incompleteTaskHolder.appendChild(listItem);
