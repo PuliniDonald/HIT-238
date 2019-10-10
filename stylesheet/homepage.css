@@ -10,7 +10,7 @@
 }
 
 .menu__button {
-    background-color: #DAFFEF;
+    background-color:  #FF5733 ;
 }
 
 .menu__buttons {
@@ -31,5 +31,5 @@
     box-shadow: .3rem .5rem rgba(50, 50, 56, 0.502);
     margin: 1rem 0rem;
     font-size: 2.5rem;
-    color: #4d4949;    
+    color: #4d4456;    
 }
