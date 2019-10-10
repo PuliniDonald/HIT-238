@@ -11,12 +11,11 @@ body {
 .mobile-nav {
     display: none;
 }
-
 .Banner__Map {
     padding: .5px 0;
     margin: 10px 0;
-    background-color: #C0FD;
-}
+    background-color: #ffeb3b8f;
+
 
 .Banner__Map p {
     text-align: center;
