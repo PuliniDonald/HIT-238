@@ -70,5 +70,50 @@
     display: block;
     margin: 0.4rem 0;
 }
+/* MENU */
+
+.menu__banner {
+    padding: .5px 0;
+    margin: 10px 0;
+    background-color: #C0FDCC;
+    height: 74.4px;
+    width: 375.2px;
+    text-align: center;
+}
+
+.menu__banner p {
+    /* text-align: center; */
+    font-weight: bold;
+    font-size: 30px;
+    color: #4d4949;
+    margin: 0;
+    padding: 20px;
+}
+.menu__button {
+    background-color: #DAFFCC;
+}
+
+.menu__buttons {
+    width: 250px;
+    align-items: center;
+    margin: auto;
+    padding: 20px 0;
+}
+
+.menu__buttons a {
+    text-decoration: none;
+    display: block;
+    list-style: none;
+    text-align: center;
+    padding: .8rem;
+    border: 1px solid #a8a9b7 ;
+    border-radius: .5rem .5rem;
+    box-shadow: .3rem .5rem rgba(50, 50, 56, 0.502);
+    margin: 1rem 0rem;
+    font-size: 2.5rem;
+    color: #4d4545;    
+}
+
+;
 
 
