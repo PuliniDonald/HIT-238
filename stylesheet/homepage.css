@@ -1,11 +1,12 @@
 /* MENU */
 
 .menu__banner {
+    font-size: 30px;
     padding: .5px 0;
     margin: 10px 0;
-    background-color: #C0FDFB;
+    background-color: #fccaca;
     height: 74.4px;
-    width: 375.2px;
+    width: 1375.2px;
     text-align: center;
 }
 
