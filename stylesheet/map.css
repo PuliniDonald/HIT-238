@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #64B6AC;
+    background-color:  #FF5733 ;
     padding: 0;
     margin: 10px 0;
 }
@@ -15,7 +15,7 @@ body {
 .Banner__Map {
     padding: .5px 0;
     margin: 10px 0;
-    background-color: #C0FDFB;
+    background-color: #C0FD;
 }
 
 .Banner__Map p {
