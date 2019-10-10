@@ -28,12 +28,12 @@ table {
 }
 
 .container {
+   
     height: 538px;
     left: 50%;
     margin: -255px 0 0 -245px;
     position: absolute;
     top: 50%;
-    width: 510px;
 }
 
 /* ---------- CALENDAR ---------- */
