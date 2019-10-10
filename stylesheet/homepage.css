@@ -33,6 +33,10 @@
     font-size: 2.5rem;
     color: #4d4456;    
 }
+.main-header > div {
+    display: inline-block;
+vertical-align: middle;
+}
 /* NAVIGATION AND TOGGLE BUTTON */
 
 .mobile-nav__item a {
