@@ -15,7 +15,7 @@ body {
     padding: .5px 0;
     margin: 10px 0;
     background-color: #ffeb3b8f;
-
+}
 
 .Banner__Map p {
     text-align: center;
@@ -27,13 +27,8 @@ body {
     color: #5D737E;
 }
 
-#map {
+.map-container {
     height: 100vh;
     width: 100%;
     margin: 0;
-}
-element {
-    position: relative;
-    overflow: hidden;
-    height: 110vh;
 }
